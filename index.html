@@ -12,18 +12,18 @@
         <h1>Generate a <br><span class="accent-text">Random Password</span></h1>
         <p>Never use an insecure password again.</p>
         <div class="action">
-        <button class="generate-btn" onclick="genPass()">Generate Passwords</button>
-            <div><input type="number" min="6" max="15" placeholder="Change the Password Length" class="change-pass-length" >
+        <button id="generatePassword" onclick="genPass()">Generate Passwords</button>
+            <div><input type="number" min="6" max="15" placeholder="Change the Password Length" id="changePassLength" >
             </div>
         </div>
         <hr>
 
         <div class="display-btn">
             
-                <div id="display-pass1" class="pass-btn"></div>
-                <div id="display-pass2" class="pass-btn"></div>
-                <div id="display-pass3" class="pass-btn"></div>
-                <div id="display-pass4" class="pass-btn"></div>          
+                <div id="displayPass1" class="pass-btn"></div>
+                <div id="displayPass2" class="pass-btn"></div>
+                <div id="displayPass3" class="pass-btn"></div>
+                <div id="displayPass4" class="pass-btn"></div>          
         </div>
     </div>
 
