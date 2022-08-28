@@ -50,7 +50,7 @@ p{
     display: flex;
     justify-content: space-between;
 }
-.change-pass-length{
+#passwordlength{
     width: 250px;
     padding: 10px;
     
